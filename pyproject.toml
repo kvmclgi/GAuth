@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gauthy"
+version = "0.1.0"
+description = ""
+authors = ["Syed Ibrahim <siz998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyotp = "^2.7.0"
+typer = "^0.6.1"
+pyzbar = "^0.1.9"
+pillow = "^9.3.0"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
